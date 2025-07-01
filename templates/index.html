@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rohitha Andey | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">🏠 Home</a>
+        <a href="/contact">📬 Contact</a>
+    </nav>
+
+    <header class="hero">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Rohitha Profile" class="profile-img">
+        <h1>Hi, I'm <span class="highlight">Rohitha Andey</span></h1>
+        <p class="tagline">Aspiring Data Scientist | Python & Power BI Enthusiast</p>
+    </header>
+
+    <section class="about">
+        <h2>🎯 Objective</h2>
+        <p>
+            To work in a challenging and skillful environment and use my abilities to seize every opportunity. I'm passionate about my work and committed to contributing to company growth through dedication and continuous learning.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>💻 Technical Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> C, Java, Python</li>
+            <li><strong>Database:</strong> MySQL</li>
+            <li><strong>Data Analysis:</strong> Pandas, Numpy, Matplotlib, Seaborn</li>
+            <li><strong>BI Tools:</strong> Power BI</li>
+            <li><strong>Other:</strong> MS Office</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>🚀 Projects</h2>
+        <div class="project-card">
+            <h3>Ola Data Analytics</h3>
+            <p>Analyzed 100K+ ride records to extract KPIs and booking trends using Excel, SQL, and Power BI dashboards.</p>
+        </div>
+        <div class="project-card">
+            <h3>Twitter Sentiment Analysis</h3>
+            <p>Classified tweets using Logistic Regression, TF-IDF, NLTK, and Python to predict positive/negative sentiment.</p>
+        </div>
+    </section>
+
+    <section class="certs">
+        <h2>📜 Certifications</h2>
+        <ul>
+            <li>NPETL: C, Java, Python for Data Science, Joy of Computing</li>
+            <li>Coursera: Introduction to Java</li>
+        </ul>
+    </section>
+
+    <section class="extras">
+        <h2>🌟 Hobbies & Strengths</h2>
+        <p><strong>Hobbies:</strong> Playing Badminton, Gardening, Listening to Music</p>
+        <p><strong>Strengths:</strong> Optimistic, Hard worker, Learns from failure</p>
+    </section>
+
+    <footer>
+        <p>📞 +91 9515102152 | 📧 rohithaandey@gmail.com | 🌍 Visakhapatnam</p>
+        <p>&copy; 2025 Rohitha Andey. Made with ❤️ using Flask.</p>
+    </footer>
+</body>
+</html>

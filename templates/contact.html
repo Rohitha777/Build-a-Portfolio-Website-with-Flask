@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Rohitha</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">🏠 Home</a>
+        <a href="/contact">📬 Contact</a>
+    </nav>
+
+    <div class="contact-container">
+        <h2>📬 Get in Touch</h2>
+        <p>I'd love to hear from you! Whether it’s a question, collaboration, or just a hello — feel free to drop a message below.</p>
+
+      <form method="post" action="/contact">
+    <label>Your Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Your Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Recipient's Email:</label>
+    <input type="email" name="recipient" required>
+
+    <label>Message:</label>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">📤 Send Message</button>
+</form>
+
+
+    </div>
+
+    <footer>
+        <p>📞 +91 9515102152 | 📧 rohithaandey@gmail.com | 🌍 Visakhapatnam</p>
+        <p>&copy; 2025 Rohitha Andey</p>
+    </footer>
+</body>
+</html>
